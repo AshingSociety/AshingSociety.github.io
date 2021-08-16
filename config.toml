@@ -1,4 +1,4 @@
-baseURL = 'https://ashingoficial.github.io/'
+baseURL = 'https://ashingoficial.github.io'
 defaultContentlanguage = 'es'
 title = 'Ashing'
 theme = 'hello-friend-ng'
