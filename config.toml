@@ -1,0 +1,65 @@
+baseURL = 'http://ashing.github.io'
+defaultContentlanguage = 'es'
+title = 'Ashing'
+theme = 'hello-friend-ng'
+[params]
+
+  enableThemeToggle = true
+  enableSharingButtons = true
+  [params.logo]
+    logoMark = "@"
+    logoText = "Ashing"
+    logoHomeLink = "/"
+    
+    homeSubtitle = "Ashing sitio oficial"
+  [params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
+
+[languages]
+  [languages.es]
+    title = "Ashing"
+    subtitle = "Sitio Oficial"
+
+    [languages.es.params.logo]
+      logoMark = "@"
+      logoText = "Ashing"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+    
+    # Redes Sociales
+
+    [[params.social]]
+      name = "facebook"
+      url  = "https://www.facebook.com/Fox-Realms-102946615413231/"
+
+    [[params.social]]
+      name = "instagram"
+      url  = "https://instagram.com/foxrealms2021?utm_medium=copy_link"
+
+    [[params.social]]
+      name = "twitter"
+      url  = "https://twitter.com/sikumy"
+
+
+  # And you can even create generic menu
+
+    [[menu.main]]
+      identifier = "about"
+      name = "About"
+      url = "/about"
+
+    [[menu.main]]
+      identifier = "blog"
+      name       = "Blog"
+      url        = "/blog"
+
+    [[menu.main]]
+      identifier = "unete"
+      name       = "Únete"
+      url        = "/inscripcion"
+
