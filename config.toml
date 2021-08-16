@@ -43,7 +43,7 @@ theme = 'hello-friend-ng'
 
     [[params.social]]
       name = "twitter"
-      url  = "https://twitter.com/sikumy"
+      url  = "https://twitter.com/"
 
 
   # And you can even create generic menu
