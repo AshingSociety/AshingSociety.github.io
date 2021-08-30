@@ -16,6 +16,10 @@ theme = 'hello-friend-ng'
     mask = "#1b1c1d"
     msapplication = "#1b1c1d"
     theme = "#1b1c1d"
+  [params.portrait]
+    path     = "foto-home/foto.jpg"
+    alt      = "Portrait"
+    maxWidth = "300px"
 
 [languages]
   [languages.es]
